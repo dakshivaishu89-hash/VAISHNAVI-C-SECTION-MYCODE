@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+ int a,b;
+ scanf("\n%d%d",&a,&b);
+ printf("\n%d",a+b);
+ printf("\n%d",a-b);
+ printf("\n%d",a/b);
+ printf("\n%d",a%b);
+ return 0;
+}
